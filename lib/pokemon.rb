@@ -24,7 +24,7 @@ db.execute(sql, id)
 Pokemon.new(
 id: found_pokemon[0],
 name: found_pokemon[0],
-type:found_pokemon[0],
+type: found_pokemon[0],
 db:,
 )
 end
