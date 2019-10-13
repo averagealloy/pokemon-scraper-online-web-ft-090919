@@ -14,6 +14,6 @@ attr_accessor :id, :name, :type, :db
     INNSERT INTO pokemon (name, type) VALUES (?, ?)
     SQL
 
-    
+
 
 end
