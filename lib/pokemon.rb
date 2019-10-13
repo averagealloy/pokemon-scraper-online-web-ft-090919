@@ -25,6 +25,7 @@ Pokemon.new(
 id:,
 name:,
 type:,
-db:, )
+db:,
+)
 end
 end
