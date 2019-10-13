@@ -21,6 +21,6 @@ attr_accessor :id, :name, :type, :db
     SELECT * FROM pokemon WHERE id = ?
     SQL
 db.execute(sql, id)
-Pokemon.new(id:, name:)
+Pokemon.new(id:, name:, type)
 end
 end
