@@ -20,5 +20,5 @@ attr_accessor :id, :name, :type, :db
     sql = <<-SQL
     SELECT * FROM pokemon WHERE id = ?
     SQL
-
+db.execute(sql, name, type)
 end
