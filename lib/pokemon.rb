@@ -16,6 +16,6 @@ attr_accessor :id, :name, :type, :db
     db.execute(sql, name, type)
   end
 
-  def self 
+  def self.find  
 
 end
