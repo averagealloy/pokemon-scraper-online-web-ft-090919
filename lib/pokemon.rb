@@ -17,6 +17,8 @@ attr_accessor :id, :name, :type, :db
   end
 
   def self.find(id, db)
-    
+    sql = <<-SQL
+    INSERT INTO pokemon (name, type) VALUES (?, ?)
+    SQL
 
 end
