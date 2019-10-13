@@ -15,4 +15,6 @@ attr_accessor :id, :name, :type, :db
     SQL
     db.execute(sql, name, type)
   end
+
+
 end
