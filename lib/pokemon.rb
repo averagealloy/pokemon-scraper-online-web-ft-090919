@@ -9,6 +9,6 @@ attr_accessor :id, :name, :type, :db
     @db = db
   end
 
-  def self.find_all 
+  def self.save 
 
 end
