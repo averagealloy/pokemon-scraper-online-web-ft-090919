@@ -18,7 +18,7 @@ attr_accessor :id, :name, :type, :db
 
   def self.find(id, db)
     sql = <<-SQL
-    SELECT * FROM 
+    SELECT * FROM pokemon 
     SQL
 
 end
