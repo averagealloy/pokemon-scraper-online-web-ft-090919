@@ -1,4 +1,4 @@
 class Pokemon
 
-  attr_acc
+  attr_accessor 
 end
