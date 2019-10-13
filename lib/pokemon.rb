@@ -20,6 +20,6 @@ attr_accessor :id, :name, :type, :db
     sql = <<-SQL
     SELECT * FROM pokemon WHERE id = ?
     SQL
-db.execute(sql, id)[0][0][0]
+db.execute(sql, id)
 end
 end
