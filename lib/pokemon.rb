@@ -24,6 +24,7 @@ db.execute(sql, id)
 Pokemon.new(
 id:,
 name:,
-type:, db:, )
+type:,
+db:, )
 end
 end
