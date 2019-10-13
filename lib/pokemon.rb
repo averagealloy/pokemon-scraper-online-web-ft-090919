@@ -8,6 +8,7 @@ attr_accessor :id, :name, :type, :db
     @type = type
     @db = db
   end
-  
+
+  def 
 
 end
