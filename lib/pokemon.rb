@@ -13,6 +13,6 @@ attr_accessor :id, :name, :type, :db
     sql = <<-SQL
     INNSERT INTO pokemon (name, type) VALUES (?, ?)
     SQL
-db.execute(sql, name )
+db.execute(sql, name, )
 
 end
