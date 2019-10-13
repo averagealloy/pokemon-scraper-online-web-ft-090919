@@ -13,6 +13,6 @@ attr_accessor :id, :name, :type, :db
     sql = <<-SQL
 
 
-    SQL 
+    SQL
 
 end
