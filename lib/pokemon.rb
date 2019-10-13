@@ -13,7 +13,7 @@ attr_accessor :id, :name, :type, :db
     sql = <<-SQL
     INSERT INTO pokemon (name, type) VALUES (?, ?)
     SQL
-    
+
     db.execute(sql, name, type)
   end
 
@@ -21,7 +21,7 @@ attr_accessor :id, :name, :type, :db
     sql = <<-SQL
     SELECT * FROM pokemon WHERE id = ?
     SQL
-db.execute(sql, id).flatten
+ db.execute(sql, id).flatten
 Pokemon.new(
 id: found_pokemon[0],
 name: found_pokemon[1],
