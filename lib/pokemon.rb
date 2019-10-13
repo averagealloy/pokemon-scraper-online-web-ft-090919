@@ -11,7 +11,7 @@ attr_accessor :id, :name, :type, :db
 
   def self.save(name, type, db)
     sql = <<-SQL
-    INNSE
+    INNSERT INT
 
     SQL
 
