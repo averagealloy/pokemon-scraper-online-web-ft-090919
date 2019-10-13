@@ -7,6 +7,7 @@ attr_accessor :id, :name, :type, :db
     @name = name
     @type = type
     @db = db
-  end 
+  end
+  
 
 end
