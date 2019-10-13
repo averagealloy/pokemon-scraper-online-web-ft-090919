@@ -21,6 +21,7 @@ attr_accessor :id, :name, :type, :db
     sql = <<-SQL
     SELECT * FROM pokemon WHERE id = ?
     SQL
+    id 
  db.execute(sql, id).flatten
 Pokemon.new(
 id: found_pokemon[0],
