@@ -22,7 +22,7 @@ attr_accessor :id, :name, :type, :db
     SELECT * FROM pokemon WHERE id = ?
     SQL
     id
- found_pokemon db.execute(sql, id).flatten
+ found_pokemon=db.execute(sql, id).flatten
 Pokemon.new(
 id: found_pokemon[0],
 name: found_pokemon[1],
