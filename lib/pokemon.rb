@@ -22,7 +22,7 @@ attr_accessor :id, :name, :type, :db
     SQL
 db.execute(sql, id)
 Pokemon.new(
-id:,
+id: found,
 name:,
 type:,
 db:,
